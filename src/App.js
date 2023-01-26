@@ -35,39 +35,39 @@ function App() {
 		return <div>Error: {error.message}</div>;
 	} else {
 		return <>
-			<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 			<link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet"/>
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
 			<div id="head-div">
-				<div class="left-head">
-					<span class="icon material-symbols-outlined">nights_stay</span>
+				<div className="left-head">
+					<span className="icon material-symbols-outlined">nights_stay</span>
 					<p>MLH</p>
 				</div>
 				<div id="navbar-div">
 					<nav id="navbar">
-						<div class="navs" id="1">
-							<span class="material-symbols-outlined">home</span>
-							<a class="nav-text" href="#home-nav">Home</a>
+						<div className="navs" id="1">
+							<span className="material-symbols-outlined">home</span>
+							<a className="nav-text" href="#home-nav">Home</a>
 						</div>
-						<div class="navs" id="2">
-						<span class="material-symbols-outlined">info</span>
-							<a class="nav-text" href="#about-nav">About</a>
+						<div className="navs" id="2">
+						<span className="material-symbols-outlined">info</span>
+							<a className="nav-text" href="#about-nav">About</a>
 						</div>
-						<div class="navs" id="3">
-							<span class="material-symbols-outlined">search</span>
-							<a class="nav-text" href="#find-nav">Find</a>
+						<div className="navs" id="3">
+							<span className="material-symbols-outlined">search</span>
+							<a className="nav-text" href="#find-nav">Find</a>
 						</div>
-						<div class="navs" id="4">
-							<span class="material-symbols-outlined">call</span>
-							<a class="nav-text" href="#contact-nav">Contact</a>
+						<div className="navs" id="4">
+							<span className="material-symbols-outlined">call</span>
+							<a className="nav-text" href="#contact-nav">Contact</a>
 						</div>
 					</nav>
 				</div>
-				<div class="right-head">
-					<img src={profile} class="profile" alt="dp"/>
-					<span class="material-symbols-outlined">mark_email_unread</span>
+				<div className="right-head">
+					<img src={profile} className="profile" alt="dp"/>
+					<span className="material-symbols-outlined">mark_email_unread</span>
 				</div>
 			</div>
 			<div id="main">
@@ -105,9 +105,9 @@ function App() {
 					</div>
 					<div id="contact">
 						<div id="contact_us">Contact Us</div>
-						<div id="linkedin"><img class="imgs" src={linkedin} alt="linkedin"/><a href="https://www.linkedin.com/in/sri-tejaswi-ganesh-challapalli-984891219/">LinkedIn</a></div>
-						<div id="github"><img class="imgs" src={github} alt="github"/><a href="https://github.com/ganesh10092003">GitHub</a></div>
-						<div id="insta"><img class="imgs" src={insta} alt ="insta"/><a href="https://www.instagram.com/insta_ganesh_2003/">Instagram</a></div>
+						<div id="linkedin"><img className="imgs" src={linkedin} alt="linkedin"/><a href="https://www.linkedin.com/in/sri-tejaswi-ganesh-challapalli-984891219/">LinkedIn</a></div>
+						<div id="github"><img className="imgs" src={github} alt="github"/><a href="https://github.com/ganesh10092003">GitHub</a></div>
+						<div id="insta"><img className="imgs" src={insta} alt ="insta"/><a href="https://www.instagram.com/insta_ganesh_2003/">Instagram</a></div>
 					</div>
 				</div>
 			</div>
